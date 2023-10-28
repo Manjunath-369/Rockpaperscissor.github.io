@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&family=Libre+Baskerville:wght@700&family=Nosifer&family=Oswald:wght@300&family=Playpen+Sans:wght@100&family=Raleway:wght@300&family=Satisfy&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&family=Sometype+Mono:wght@500&family=Tektur&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Nosifer;
+    
+}
+    
+html{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgb(51, 51, 176),rgb(52, 49, 49));
+    background-repeat: no-repeat;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container{
+    width: 60%;
+    height: 200px;
+    border: 3px solid rgb(175, 201, 234);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin:10px;
+    justify-content: space-evenly;
+}
+.container-box1{
+    margin-right:150px;
+}
+.container-box1>p{
+    padding-top: 10px;
+    color: rgb(243, 11, 11);
+    font-size: x-large;
+    filter: drop-shadow(5px -5px 8px rgb(0, 0, 0));
+}
+.container-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: large;
+    box-shadow: 10px -5px 10px rgb(4, 4, 4);
+}
+.score{
+    color: rgb(225, 24, 188);
+}
+
+.game{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 100px;
+    color: rgb(56, 78, 220);
+    margin-left: 35%;
+}
+.icon{
+    padding: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 10px -10px 10px black;
+    cursor: grab;
+}
+.icon1{
+    border: 10px solid blue;
+}
+.icon2{
+    border: 10px solid rgb(255, 0, 0);
+}
+.icon3{
+    border: 10px solid rgb(217, 255, 0);
+}
+.icon:active{
+    box-shadow: 5px 5px 5px black;
+}
+.computer-your{
+    width: 500px;
+    height: 250px;
+    background-color: aliceblue;
+    background: linear-gradient(to bottom, black,white);
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow:10px 10px 10px black ;
+
+}
+.scr{
+    width: 300px;
+    color: rgb(238, 236, 236);
+    padding: 15px;
+}

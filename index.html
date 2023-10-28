@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="practise.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav-container">
+            <div class="container-box1">
+                <p>ROCK</p>
+                <p>PAPER</p>
+                <p>SCISSOR</p>
+            </div>
+            <div class="container-box2">
+                <div class="score">
+                    <p id="score">
+                        SCORE : 0
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="game">
+        <div class="rock-sci">
+            <div class="button">
+                <i onclick="choice('rock')"  class="fa-solid fa-hand-back-fist icon icon1"></i>
+            </div>
+            <div class="button">
+                <i onclick="choice('paper')" class="fa-solid fa-hand icon icon2"></i>
+            </div>
+        </div>
+        <div class="button">
+            <i onclick="choice('scissor')"  class="fa-regular fa-hand-scissors icon icon3"></i>
+        </div>
+        <div class="computer-your">
+            <div class="scr">
+                <p id="P1" style="font-size: large; text-align: center;">Player : 0</p>
+                <hr>
+                <p id="P2" style="font-size: large; text-align: center ;">Computer : 0</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="practise.js"></script>
+</html>
